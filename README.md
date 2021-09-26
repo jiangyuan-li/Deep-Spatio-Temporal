@@ -9,7 +9,7 @@ python train.py --name wind_power --epoch 300 --batch_size 20000 --lr 0.001 --k 
 ```
 
 ### Wind speed forecasting
-The model performance on wind speed forecasting is validated on NREL WIND dataset (https://www.nrel.gov/wind/data-tools.html). We select one wind farm with 100 turbines from Wynoming. To get data, first run
+The model performance on wind speed forecasting is validated on NREL WIND dataset (https://www.nrel.gov/wind/data-tools.html). We select one wind farm with 100 turbines from Wyoming. To get data, first run
 ```
 python getNRELdata.py
 ```
