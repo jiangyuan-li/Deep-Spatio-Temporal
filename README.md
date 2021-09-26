@@ -1,7 +1,7 @@
 # Deep-Spatio-Temporal
 Code for Deep Spatio Temporal Wind Power Forecasting
 ## How to use
-The model is valdiated on two datasets.
+The model is validated on two datasets.
 ### Wind power forecasting 
 This dataset is from https://aml.engr.tamu.edu/book-dswe/dswe-datasets/. The data used here is Wind Spatio-Temporal Dataset2. Download data, put it into the './data' folder and rename it to 'wind_power.csv'. Then, run following
 ```
