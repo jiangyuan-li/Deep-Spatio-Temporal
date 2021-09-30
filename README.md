@@ -13,7 +13,7 @@ The model performance on wind speed forecasting is validated on NREL WIND datase
 ```
 python getNRELdata.py
 ```
-Then run,
+Then run
 ```
 python train.py --name wind_speed --epoch 300 --batch_size 20000 --lr 0.001 --k 9 --n_turbines 100
 ```
