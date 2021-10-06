@@ -19,7 +19,7 @@ df = meta[(meta['longitude'] < lon+.25) & (meta['longitude'] >= lon)
 
 df = df.drop([864121, 868456, 869542, 870629, 871718, 872807, 873897,
               876088, 866300, 867383, 868467, 869553, 870640])
-df.to_csv('data_1h/wind_speed_meta.csv')
+df.to_csv('./data/wind_speed_meta.csv')
 gid_list = list(df.index)
 wind_speed_list = []
 for gid in gid_list:
